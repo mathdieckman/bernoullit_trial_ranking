@@ -1,4 +1,4 @@
 
-Hi! This is an expository and experiemental tool for a statistics problem I find interesting. You can run it on streamlit.io.
+Hi! This is an expository and experiemental tool for a statistics problem I find interesting. You can run it on streamlit.io at https://bernoullitrialranking.streamlit.app/
 
 Programmed with the aid of Jules programming assistant per interviewer instructions.
