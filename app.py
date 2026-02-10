@@ -76,10 +76,11 @@ with col3:
         """Jeffrys prior methods correspond to the expectation that the first
         observation is correct and doubt is reserved for once disagreement 
         among voters begins. Jeffrys priors are also conjugate priors, so
-        they can be solved for analytically. Idealy you would use the
-        observed distribution ofscores in your dataset for your prior
-        distribution, but Jeffrys makes sense intuitively and practically.
-        I too tend to consider media to be either good or bad."""
+        their inferences can be done analytically rather than with simulation or
+        approximation. Idealy you would use the observed distribution of scores 
+        in your dataset for your prior distribution, but Jeffrys makes sense 
+        intuitively and practically. I too tend to consider media to be either
+        good or bad."""
 
 # Validation and Calculation
 
