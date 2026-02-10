@@ -9,9 +9,9 @@ st.set_page_config(page_title="Binomial Proportion CI Ranker", layout="wide")
 st.title("Uncertainty-Aware Ranking Calculator")
 st.markdown("""
 Say that you need to rank items based on an observed or reported history of
-desireable or undesirable interactions. If there has been a single interaction,
-and it's positive, you wouldn't want to rank the item #1 right? Sample size
-1 is no good.
+desireable or undesirable interactions. If there has only been a single interaction
+with an item, and it's positive, you wouldn't want to rank the item at the top of the list
+right? Sample size 1 does not imply much.
 
 A common solution is to rank according to the confidence-interval lower bound
 of a statistical inference about the probability of an interaction being
